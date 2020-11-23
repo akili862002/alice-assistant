@@ -1,0 +1,189 @@
+{
+  "1":{
+    "user":   ["what's up with you","how are you", "how about you", "how's going in", "what's up", "what's it going", "what's happening"],
+    "jarvis": ["I'm good, what about you?[(_)->[Ok, so what do you wanna do today?!]]", "I'm allright, how are you?[(_)->[Ok, so what do you wanna do today?]]", "I'm over the moon, how are you?[(_)->[Have nice day!]]"]
+  },
+  "2":{
+    "user":   ["thanks", "thank you", "thank you very much", "thanks alot", "good job", "you are so good"],
+    "jarvis": ["Oh, my pleasure.", "With all my respect. sir!"]
+  },
+  "3":{
+    "user":   ["how old are you", "what is your age?"],
+    "jarvis": ["nearly, sir."]
+  },
+  "3.5":{
+    "user":   ["who are you", "what is your name", "who the hell are you"],
+    "jarvis": ["I'm Alice who supports for you.{change.title(Assistant)}", "Alice, the Artificial Intelligence!{change.title(Assistant)}", "Alice, your Assistant.{change.title(Assistant)}"]
+  },
+  "4":{
+    "user":   ["hey", "hello", "hi", "yo"],
+    "jarvis": ["Can I help you sir?", "Always be here!, Sir", "What do you need?", "Yes, sir?"]
+  },
+  "5":{
+    "user":   ["i'm boring", "give me something fun", "sad", "boring"],
+    "jarvis": [
+                "Sir, do you want to enjoy some music? [(y)->[Music is on! Enjoy yourself.{sys.open.music(random)}{change.title(Music)}];(n)->[No?, what about watching film?[(y)->[Time to relax.{open.website(http://www.phimmoi.net/phim-chieu-rap/)}]]]]",
+                "Do you want to play some games?[(y)->[I suggest Tetris game.{open.website(https://tetris.com/play-tetris)}]]"
+              ]
+  },
+  "6":{
+    "user":   ["open music", "music", "play music" , "next", "more music", "other music", "give me some music", "give me music", "drop my needle"],
+    "jarvis": ["Have fun! {sys.open.music(random)}{change.title(Music)}", "As you wish! {sys.open.music(random)}{change.title(Music)}"]
+  },
+  "7":{
+    "user":   ["chrome", "google chrome", "open chrome"],
+    "jarvis": ["As you wish! {sys.open.app(chrome)}", "Open it...{sys.open.app(chrome)}"]
+  },
+  "7.011":{
+    "user":   ["opera", "open opera", "open google"],
+    "jarvis": ["As you wish! {sys.open.app(opera)}", "Open it...{sys.open.app(opera)}"]
+  },
+    "7.012":{
+    "user":   ["gmail", "check gmail"],
+    "jarvis": ["Open Gmail...{open.website(https://mail.google.com/mail/u/0/#inbox)}", "Access Gmail...{open.website(https://mail.google.com/mail/u/0/#inbox)}"]
+  },
+  "7.1":{
+    "user":   ["you here", "you there"],
+    "jarvis": ["At your service. Sir{change.title(Always)}<br/>always"]
+  },
+  "8":{
+    "user":   ["tell me a joke", "play me", "joke<a>", "make me happy"],
+    "jarvis": [
+                "He said that: I wasn't that drunk yesterday.<br/> His father: Oh boy you took the shower head in your arms and told it to stop crying.",
+                "I proposed to my ex-wife. But she said 'No'.<br/> She believes I’m just after my money.",
+                "The boy said: Wow, what’s a cute girl like you doing in a corner all alone?.<br/> She said : I had to fart!",
+                "Dad says: How do you feel?.<br/>His son replies: Good.<br/>[Dad says]: Wrong. You feel with your skin.",
+                "My boss told me to have a good day...<br/>So I went home.",
+                "Donkey A said: So, shall we cross?.<br/> Donkey B told: No way, look at what happen to the Zebra {sys.open.file(images/jokes/donkey.jpg)}",
+                "Why did the cowboy buy a dachshund?<br/> Someone told him to get a long little doggy."
+              ]
+  },
+  "9":{
+    "user":   ["haha", "kaka", "i can't stop laugh", "ahaha", "funny", "it's funny"],
+    "jarvis": ["I'm glad to see you happy!", "It's fun, right!"]
+  },
+  "10":{
+    "user":   ["open moon <a>", "learn maths <a>", "maths", "learn mathematics<a>", "learn mathematics"],
+    "jarvis": ["Here you are!{sys.open.website(https://moon.vn/default.aspx)}"]
+  },
+  "11":{
+    "user":   ["open physics <a>", "learn physics <a>", "study physics<a>"],
+    "jarvis": ["Here you are!{sys.open.website(https://drive.google.com/drive/folders/10KHIVxGeI6ydJ8s18rtbaJpji64437bk)}"]
+  },
+   "11A":{
+    "user":   ["learn english <a>", "study english <a>", "open english <a>"],
+    "jarvis": ["Open english online!{sys.open.website(https://drive.google.com/drive/folders/1-2GTwkSIceIV_kTu8JQTSwdQCL6xqtzn)}"]
+  },
+  "12":{
+    "user":   ["youtube", "open youtube"],
+    "jarvis": ["As you wish!{sys.open.website(https://www.youtube.com/)}{change.title(Youtube)}"]
+  },
+  "13":{
+    "user":   ["update", "update data", "upgrade data"],
+    "jarvis": ["System was updated!{sys.update}{change.title(Updated)}"]
+  },
+  "14":{
+    "user":   ["can i ask you<a>"],
+    "jarvis": ["Sure that, go ahead!{change.title(Sure)}", "Yes, you can do anything.{change.title(Sure)}", "Of course, sir{change.title(Sure)}"]
+  },
+  "15":{
+    "user":   ["can you sing?", "sing some songs", "sing a song", "singing"],
+    "jarvis": ["I have a list of your favorite music here. You wanna open it?[(y)->[Enjoy yourself!{open.music(random)}]]"]
+  },
+  "16":{
+    "user":   ["yeah", "ok", "oh", "really", "sure", "are you sure", "are you sure about that", "so", "not yet"],
+    "jarvis": ["..."]
+  },
+  "17":{
+  	"user":   ["phimmoi<a>", "movie", "find me a movie", "give me a movie", "give me a film<a>"],
+    "jarvis": ["I found a lot of films here!{sys.open.website(http://www.phimmoi.net/phim-chieu-rap/)}"]
+  },
+  "17.1":{
+    "user":   ["suggest me some film<a>", "best movie<a>"],
+    "jarvis": ["I suggest some movie there! {sys.open.website(http://www.phimmoi.net/phim-chieu-rap/)}"]
+  },
+  "18":{
+    "user":   ["all my music", "list music<a>"],
+    "jarvis": ["It's yours {sys.list.music}"]
+  },
+  "19":{
+    "user":   ["list app<a>", "list applications<a>", "my apps"],
+    "jarvis": ["Here you are! {sys.list.app}"]
+  },
+  "19.1":{
+    "user":   ["alice", "jarvis"],
+    "jarvis": ["I'm here!", "Always be here. Sir!"]
+  },
+  "18.1":{
+    "user":   ["trans", "translate", "oxford", "open oxford", "open translate", "open dictionary", "dictionary"],
+    "jarvis": ["It's yours {sys.open.website(https://www.oxfordlearnersdictionaries.com/)}"]
+  },
+  "sys_1":{
+    "user":   ["change system<a>", "change data<a>", "change communication<a>","change<a>"],
+    "jarvis": ["If you finish, please update data. {sys.list.communication()}"]
+  },
+  "mission-on":{
+    "user"  : ["aboard<a>", "my mission<a>", "my plan<a>", "timetable<a>", "what do you have for me"],
+    "jarvis": ["{mission.on}"]
+  },
+  "mission-off":{
+    "user"  : ["close aboard", "close my mission<a>", "close my plan<a>", "close timetable<a>"],
+    "jarvis": ["{mission.off}"]
+  },
+  "24":{
+    "user"  : ["turn off computer<a>", "shut down", "shut down my computer<a>"],
+    "jarvis": ["Are you sure that I will turn off your computer?{change.title(Shutdown)}<br/> {listen.start()}[(y)->[Goodbye!, Catch you later.{sys.shut_down_computer(10)}];(n)->[Ok, I'll cancel it]]"]
+  },
+  "21A":{
+    "user":   ["study<a>", "work<a>"],
+    "jarvis": ["what do you wanna study?[(math)->[Open maths online{open.website(https://moon.vn/khoa-hoc/pro-s-luyen-thi-thpt-quoc-gia-2020-1603)}];[Here you are.(physic)->[https://drive.google.com/drive/folders/10KHIVxGeI6ydJ8s18rtbaJpji64437bk]];(english)->[Here you are.{open.website(https://drive.google.com/drive/folders/1-2GTwkSIceIV_kTu8JQTSwdQCL6xqtzn)}]]"]
+  },
+  "20":{
+    "user":   ["good night", "i'm going to sleep", "i will go to bed", "i will sleep"],
+    "jarvis": ["Sir, do you want me to shut down computer?<br/>{listen.start}{change.title(Good night!)}[(y)->[Good night, Sir. Have nice dream!{sys.shut_down_computer(10)}];(n)->[Ok, I'll cancel it]]"]
+  },
+  "21S2":{
+    "user":   ["close program<a>", "end program", "goodbye", "see you later"],
+    "jarvis": ["Sir. Catch you later!{close_program}"]
+  },
+  "do_test":{
+    "user":   ["do a test<a>", "test mode<a>"],
+    "jarvis": ["Copy that.<br/> You take care your test, I take care music!{open.website(https://www.youtube.com/watch?v=bebuiaSKtU4)}<br/>How many minutes do you want to set?[(45)->[Start countdown with 45 minutes{countdown.start(0:45:0)}];(60)->[Start countdown with 60 minutes{countdown.start(0:60:0)}];(50)->[you have 50 minutes!{countdown.start(0:50:0)}];(90)->[Ok, you have 90 minutes!{countdown.start(0:90:0)}]]"]
+  },
+  "conw":{
+    "user":   ["countdown<a>", "start countdown<a>"],
+    "jarvis": ["How many minutes do you want?[(45)->[Start countdown with 45 minutes{countdown.start(0:45:0)}];(60)->[Start countdown with 60 minutes{countdown.start(0:60:0)}];(50)->[Copy that, you have 50 minutes!{countdown.start(0:50:0)}];(90)->[Ok, you have 90 minutes!{countdown.start(0:90:0)}]]"]
+  },
+  "conww":{
+    "user":   ["start countdown with <info> minutes", "start countdown <info> minutes"],
+    "jarvis": ["Ok, I set it.<br/>Start countdown!{countdown.start(0:<info>:0)}"]
+  },
+  "conw1":{
+    "user":   ["pause countdown", "pause"],
+    "jarvis": ["Pause countdown{countdown.pause()}"]
+  },
+  "conw12":{
+    "user":   ["resume countdown", "continue countdown"],
+    "jarvis": ["Resume countdown{countdown.resume()}"]
+  },
+  "conw123-":{
+    "user":   ["stop countdown", "cancel countdown"],
+    "jarvis": ["Countdown was cancel!{countdown.stop()}"]
+  },
+  "get_time":{
+    "user":   ["what time is it<a>"],
+    "jarvis": ["Current time is<br/>{get.time()}"]
+  },
+   "note":{
+    "user":   ["my note<a>"],
+    "jarvis": ["Here you are.{open.file(*/DATABASE/note.txt)}"]
+  },
+   "Ls":{
+    "user":   ["change timetable<a>", "change mission", "change plan"],
+    "jarvis": ["Here is your time-table{open.file(*/DATABASE/time_table.json)}"]
+  },
+  "next-plan":{
+   "user":   ["next plan<a>", "next mission<a>"],
+   "jarvis": ["{mission.get_next_plan()}"]
+  }
+}

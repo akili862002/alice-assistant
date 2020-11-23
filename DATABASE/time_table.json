@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Mon": {            
+            "7:00-11:00":  "study physics",
+            "12:45-14:00": "do physics exam",
+            "14:00-14:45": "study Maths on Zoom",
+            "15:00-15:45": "study Chemistrys on Zoom",
+            "19:00-23:00": "do English exam"
+        },
+        "Tue": {
+            "7:00-11:00": "study Maths online",
+            "12:45-14:00": "do physics exam",
+            "14:00-14:45": "study physics on Zoom",
+            "15:00-15:45": "study English on Zoom",
+            "17:00-19:00": "Study English in NewStart",
+            "19:00-23:00": "do English exam"
+        },
+        "Wed": {
+            "7:00-11:00":  "study English",
+            "12:45-14:00": "do maths exam",
+            "14:00-14:45": "study English on Zoom",
+            "15:00-15:45": "study literature on Zoom",
+            "19:00-23:00": "do physics exam"
+        },
+        "Thu": {
+            "7:00-11:00":  "study maths",
+            "12:45-14:00": "do physics exam",
+            "14:00-14:45": "study biologys on Zoom",
+            "15:00-15:45": "Study maths on Zoom",
+            "19:00-23:00": "do English exam"
+        },
+        "Fri": {
+            "7:00-11:00":  "study physics",
+            "12:45-14:00": "do English exam",
+            "14:00-14:45": "study English on Zoom",
+            "15:00-15:45": "study literature on Zoom",
+            "17:00-19:00": "Study English in NewStart",
+            "19:00-23:00": "do maths exam"
+        },
+        "Sat": {
+            "7:00-11:00":  "study English",
+            "12:45-14:00": "do physics exam",
+            "14:00-14:45": "study maths on Zoom",
+            "15:00-15:45": "study literature on Zoom",
+            "19:00-23:00": "do maths exam"
+        },
+        "Sun": {
+            "7:00-11:00": "study maths online",
+            "13:00-17:00": "study physics",
+            "19:00-22:00": "study English",
+            "21:00-23:00": "do test of NewStart"
+        }
+    },
+    "today": {
+    	"8:00": "do a test online",
+        "6:00":  "do physical exercise[NOT_YET]",
+        "11:15": "take a rest[NOT_YET]",
+        "17:00": "study Javascript",
+        "21:30": "charge your bike[NOT_YET]",
+        "23:30": "go to bed[NOT_YET]",
+        "0:30":  "go to bed"
+    },
+    "tomorrow": {},
+    "time-save": "Mon Mar 23 2020"
+}
